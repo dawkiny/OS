@@ -1,4 +1,11 @@
 
+### Install ```openssh-server```
+```sh
+sudo apt-get install openssh-server
+```
+
+
+
 ### Install ```xrdp```
 ```sh
 sudo apt-get install xrdp
