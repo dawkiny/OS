@@ -38,7 +38,7 @@ sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n unity \n' /etc/xrdp
 
 ```
 and CHANGE xrdp file
-``sh
+```sh
 # Set keyboard layout in xrdp sessions 
 cd /etc/xrdp 
 test=$(setxkbmap -query | awk -F":" '/layout/ {print $2}') 
