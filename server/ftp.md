@@ -3,7 +3,7 @@
 
 ## Install FTP
 ```sh
-sudo apt install vsftpd
+sudo apt-get install vsftpd
 ```
 
 ## FTP Configuration
