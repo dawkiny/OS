@@ -1,8 +1,10 @@
-#FTP
+# FTP(Very Secure FTP)
 
 ```sh
 sudo apt install vsftpd
 ```
+
+## FTP Configuration
 
 ```sh
 sudo vi /etc/vsftpd.conf
@@ -17,6 +19,7 @@ chroot_local_user = YES
 allow_writeable_chroot = YES
 ```
 
+## Restart FTP Service
 ```sh
 sudo service vsftpd restart
 ```
