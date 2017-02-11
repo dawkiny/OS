@@ -11,3 +11,12 @@ sudo apt-get -y install boot-repair && boot-repair
 ```
 
 `Recommended repair`
+
+
+## `apt-get update` fails
+
+```sh
+sudo rm /var/lib/apt/lists/* -vf
+sudo apt-get update
+sudo apt-get upgrade
+```
